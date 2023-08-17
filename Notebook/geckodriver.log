@@ -1,0 +1,27 @@
+1690477679938	geckodriver	INFO	Listening on 127.0.0.1:55011
+1690477682968	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--disable-dev-shm-usage" "- ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\murri\\AppData\\Local\\Temp\\rust_mozprofiley6Uve9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690477683488	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag -no-sandbox\n"
+console.error: "Warning: unrecognized command line flag -ignore-certificate-errors\n"
+console.error: "Warning: unrecognized command line flag -log-level\n"
+console.error: "Warning: unrecognized command line flag -disable-notifications\n"
+console.error: "Warning: unrecognized command line flag -user-agent\n"
+1690477683625	Marionette	INFO	Listening on port 55023
+Read port: 55023
+WebDriver BiDi listening on ws://127.0.0.1:55012
+1690477683701	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1690477683777	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:55015","sslProxy":"127.0.0.1:55015"}
+DevTools listening on ws://127.0.0.1:55012/devtools/browser/f42e1f4b-1dc3-42eb-84dd-904fb8e4e5cd
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://twitter.com."
+1690477742012	Marionette	INFO	Stopped listening on port 55023
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
+1690477742081	WebDriver BiDi	ERROR	Failed to stop protocol: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.sys.mjs :: allowAllCerts.disable :: line 51"  data: no] Stack trace: allowAllCerts.disable()@cert.sys.mjs:51
+destroy()@Session.sys.mjs:205
+deleteSession()@WebDriverBiDi.sys.mjs:142
+stop()@WebDriverBiDi.sys.mjs:230
+observe()@resource://gre/modules/AsyncShutdown.sys.mjs:575
