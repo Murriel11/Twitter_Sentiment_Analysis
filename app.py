@@ -56,8 +56,10 @@ def sent_anly_prediction():
     return render_template('index.html', text=text, sentiment=sentiment, probability=probability, image=img_filename)
 
 
-init()
-app.run(debug=True)
+# init()
+# app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True, use_reloader=False)
 
 # from flask import Flask, render_template, flash, request, url_for, redirect, session
 # import numpy as np
